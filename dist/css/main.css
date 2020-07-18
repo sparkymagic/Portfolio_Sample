@@ -408,7 +408,8 @@ img {
     justify-content: space-between;
     height: 5rem;
     align-items: center; }
-    #main-footer .footer-content .social .fab {
+    #main-footer .footer-content .social a {
+      color: white;
       margin-right: 1rem;
       border: 2px white solid;
       border-radius: 50%;
@@ -417,7 +418,7 @@ img {
       width: 20px;
       text-align: center;
       padding: 0.5rem; }
-      #main-footer .footer-content .social .fab:hover {
+      #main-footer .footer-content .social a:hover {
         background: #ffbc00; }
 
 @media (max-width: 800px) {
