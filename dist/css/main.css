@@ -215,7 +215,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/testbackground.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -226,7 +226,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/testbackground.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 2px solid #ffbc00; }
 
@@ -238,61 +238,6 @@ img {
   #home-a .specials .fas {
     color: #ffbc00;
     padding-bottom: 0.4rem; }
-
-#home-b .stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); }
-  #home-b .stats li {
-    line-height: 2; }
-    #home-b .stats li.stats-title {
-      font-size: 1.5rem; }
-    #home-b .stats listats-number {
-      font-size: 2rem;
-      font-weight: bold; }
-  #home-b .stats div {
-    padding: 3rem; }
-    #home-b .stats div:nth-child(odd) {
-      background: #f4f4f4; }
-    #home-b .stats div:nth-child(even) {
-      background: #ccc; }
-
-#home-c .process {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1.5rem;
-  text-align: center; }
-  #home-c .process-step {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 28px;
-    background: #ffbc00;
-    color: #fff;
-    border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    line-height: 15px;
-    padding: 1rem;
-    transition: all 0.3s; }
-  #home-c .process-icon {
-    border-radius: 50%;
-    background: #333;
-    color: #fff;
-    padding: 2rem;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    position: relative;
-    transition: all 0.3s; }
-    #home-c .process-icon:hover {
-      background: #ffbc00;
-      width: 90px;
-      height: 90px;
-      line-height: 90px; }
-      #home-c .process-icon:hover .process-step {
-        background: #333;
-        color: #fff; }
 
 #about-a .about-info {
   display: grid;
@@ -338,35 +283,6 @@ img {
     color: #fff;
     text-align: center;
     background: #ffbc00; }
-
-#about-c .about-logos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem; }
-  #about-c .about-logos img {
-    width: 80%; }
-
-#about-d .testimonials {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 0.5rem; }
-
-#about-d ul {
-  list-style-type: none;
-  margin-top: 1rem;
-  display: flex;
-  align-items: center; }
-
-#about-d p {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 0.5rem; }
-
-#about-d img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 0.5rem; }
 
 #contact-a .text-fields {
   display: grid;
@@ -460,18 +376,6 @@ img {
     grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
   #about-c {
     display: none; }
-  #contact-a .text-fields {
-    grid-template-areas: "name" "subject" "email" "phone" "message"; }
-  #contact-b div {
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px #555 solid; }
-    #contact-b div:last-child {
-      border: none;
-      margin-bottom: 0;
-      padding-bottom: 0; }
-  #contact-c h1 {
-    font-size: 2rem; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {
